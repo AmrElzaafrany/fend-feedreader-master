@@ -88,9 +88,7 @@ $(function() {
          * the use of Jasmine's beforeEach and asynchronous done() function.
          */
         beforeEach(function(done) {
-            loadFeed(0, function() {
-                done();
-            });
+            loadFeed(0, done)
         });
 
         it('when load feed is called and completes its work there is at least one element', function() {
@@ -119,7 +117,7 @@ $(function() {
             });
         });
         it('load new feed', function() {
-            expect('updateContent').not.toBe('defaultContent');
+            expect(updateContent).not.toBe(defaultContent);
 
         });
     });
