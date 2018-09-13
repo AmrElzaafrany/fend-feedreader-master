@@ -5,10 +5,11 @@ In this project you are given a web-based application that reads RSS feeds. The 
 
 ## How to open 
 
-1.clone repository to your machine
-2.run node -v on the terminal
-3.run npm install -g http-server
-4.run http-sever -0 in project directory
+1. clone repository to your machine
+2. run node -v on the terminal if nothing happen
+3. instal node
+4. run npm install -g http-server
+5. run http-sever -0 in project directory
 
 ## Why this Project?
 
